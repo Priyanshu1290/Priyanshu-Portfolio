@@ -4,28 +4,62 @@
 <title>Priyanshu Shrivastava | Java Backend Developer</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
+
+html{
+scroll-behavior:smooth;
+}
+
 body{
 margin:0;
 font-family: 'Segoe UI', sans-serif;
 background:#0f172a;
 color:white;
-line-height:1.6;
 }
-header{
-padding:80px 20px;
-text-align:center;
+
+nav{
+position:fixed;
+width:100%;
 background:#1e293b;
+padding:15px 0;
+text-align:center;
+z-index:1000;
 }
-h1{font-size:42px;margin:0;}
-h2{color:#38bdf8;margin-bottom:20px;}
+
+nav a{
+color:white;
+margin:0 20px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+header{
+padding:140px 20px 100px;
+text-align:center;
+}
+
+h1{
+font-size:45px;
+margin-bottom:10px;
+}
+
+h2{
+color:#38bdf8;
+margin-bottom:20px;
+}
+
 section{
-padding:60px 20px;
+padding:80px 20px;
 max-width:900px;
 margin:auto;
 }
+
 .btn{
 display:inline-block;
-padding:10px 20px;
+padding:12px 25px;
 margin:10px;
 background:#38bdf8;
 color:black;
@@ -34,56 +68,76 @@ border-radius:6px;
 font-weight:bold;
 transition:0.3s;
 }
+
 .btn:hover{
 background:white;
 }
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
 .skills span{
-display:inline-block;
 background:#1e293b;
-padding:8px 14px;
-margin:6px;
+padding:10px 18px;
+margin:8px;
 border-radius:6px;
 }
+
 .card{
 background:#1e293b;
-padding:20px;
+padding:25px;
 border-radius:8px;
-margin-bottom:20px;
+margin-bottom:25px;
 }
+
 footer{
 background:#1e293b;
 text-align:center;
 padding:20px;
 }
+
 </style>
 </head>
+
 <body>
+
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#education">Education</a>
+<a href="#contact">Contact</a>
+</nav>
 
 <header>
 <h1>Priyanshu Shrivastava</h1>
 <p>Java Backend Developer</p>
 <p>Building scalable backend systems using Java & SQL</p>
+
 <a href="Priyanshu_Resume.pdf" class="btn">Download Resume</a>
 <a href="http://www.linkedin.com/in/priyanshu-shri" class="btn">LinkedIn</a>
 <a href="https://github.com/Priyanshu1290" class="btn">GitHub</a>
 </header>
 
-<section>
+<section id="about">
 <h2>About Me</h2>
 <p>
-Computer Science graduate with strong foundation in Java, SQL, APIs, and Software Development Life Cycle.
-Passionate about backend development and continuously improving problem-solving skills.
-Currently seeking entry-level opportunities as a Java Backend Developer.
+Computer Science graduate passionate about backend development.
+Strong foundation in Java, SQL, APIs and Software Development Life Cycle.
+Seeking entry-level opportunities to contribute and grow as a Java Backend Developer.
 </p>
 </section>
 
-<section>
+<section id="skills">
 <h2>Technical Skills</h2>
 <div class="skills">
 <span>Java</span>
 <span>SQL</span>
 <span>REST APIs</span>
-<span>Git & Git Bash</span>
+<span>Git</span>
 <span>Linux</span>
 <span>CI/CD Basics</span>
 <span>Software Testing</span>
@@ -91,34 +145,30 @@ Currently seeking entry-level opportunities as a Java Backend Developer.
 </div>
 </section>
 
-<section>
+<section id="projects">
 <h2>Projects</h2>
-
 <div class="card">
 <h3>Backend Projects (In Progress)</h3>
 <p>
-Currently building Java-based backend projects including CRUD applications 
-and database-driven systems. Projects will be updated soon.
+Currently building Java-based CRUD applications and database-driven systems.
+Projects will be updated soon.
 </p>
 </div>
-
 </section>
 
-<section>
+<section id="education">
 <h2>Education</h2>
 <div class="card">
 <p><strong>Bachelor of Engineering (Computer Science)</strong></p>
 <p>Dr. Bhimrao Ambedkar University, Agra</p>
-<p>CGPA: 7.12 | Graduated 2025</p>
+<p>CGPA: 7.12 | 2025 Graduate</p>
 </div>
 </section>
 
-<section>
-<h2>Internship & Training</h2>
-<div class="card">
-<p>Completed Online Ethical Hacking Training (Internshala)</p>
-<p>Completed Online Internship Program</p>
-</div>
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: priyanshu125590@gmail.com</p>
+<p>Phone: 8827853572</p>
 </section>
 
 <footer>
