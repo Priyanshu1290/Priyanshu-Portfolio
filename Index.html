@@ -1,94 +1,300 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Priyanshu Shrivastava Portfolio</title>
+
+<title>Priyanshu Shrivastava | Java Backend Developer</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
 <style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
 body{
-font-family: Arial;
-margin:40px;
-background:#f5f5f5;
+font-family:'Poppins',sans-serif;
+background:#0f172a;
+color:white;
 }
+
 .container{
-background:white;
-padding:30px;
-border-radius:10px;
-box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+max-width:1100px;
+margin:auto;
+padding:40px;
 }
-h1{
-color:#333;
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:40px;
 }
-.section{
-margin-top:30px;
+
+nav h2{
+font-weight:600;
 }
-a{
-color:blue;
+
+nav a{
+color:#38bdf8;
+margin-left:20px;
 text-decoration:none;
 }
+
+header{
+text-align:center;
+padding:60px 20px;
+}
+
+header h1{
+font-size:42px;
+margin-bottom:10px;
+}
+
+header p{
+color:#cbd5e1;
+font-size:18px;
+}
+
+.buttons a{
+display:inline-block;
+margin:10px;
+padding:10px 20px;
+background:#2563eb;
+color:white;
+border-radius:6px;
+text-decoration:none;
+}
+
+section{
+margin-top:60px;
+}
+
+section h2{
+border-bottom:2px solid #334155;
+padding-bottom:10px;
+margin-bottom:20px;
+}
+
+.card{
+background:#1e293b;
+padding:20px;
+margin-top:20px;
+border-radius:8px;
+}
+
+.card a{
+color:#38bdf8;
+text-decoration:none;
+}
+
+ul{
+line-height:1.8;
+}
+
+footer{
+text-align:center;
+margin-top:80px;
+color:#94a3b8;
+}
+
 </style>
+
 </head>
 
 <body>
 
 <div class="container">
 
+<nav>
+
+<h2>Portfolio</h2>
+
+<div>
+
+<a href="#about">About</a>
+
+<a href="#projects">Projects</a>
+
+<a href="#certificates">Certificates</a>
+
+<a href="#achievements">Achievements</a>
+
+<a href="#profiles">Profiles</a>
+
+</div>
+
+</nav>
+
+<header>
+
 <h1>Priyanshu Shrivastava</h1>
-<p>Java Backend Developer</p>
 
-<div class="section">
+<p>Java Backend Developer | Spring Boot | REST API | MySQL</p>
+
+<div class="buttons">
+
+<a href="https://github.com/Priyanshu1290">GitHub</a>
+
+<a href="http://www.linkedin.com/in/priyanshu-shri">LinkedIn</a>
+
+<a href="https://www.hackerrank.com/profile/priyanshu125590">HackerRank</a>
+
+<a href="https://github.com/Priyanshu1290/Priyanshu-Portfolio/raw/main/Priyanshu_Resume.pdf">Download Resume</a>
+
+</div>
+
+</header>
+
+<section id="about">
+
 <h2>About Me</h2>
+
 <p>
-Computer Science graduate passionate about Java backend development,
-Spring Boot, REST APIs and database systems.
+
+Computer Science graduate passionate about backend development using Java and Spring Boot.
+Experienced in building REST APIs, database integration and scalable backend systems.
+
 </p>
-</div>
 
-<div class="section">
+</section>
+
+<section id="projects">
+
 <h2>Projects</h2>
-<ul>
-<li>
-Student Management System (Spring Boot + MySQL)
-<br>
-<a href="https://github.com/YOUR_GITHUB_USERNAME/student-api">
-View Project
+
+<div class="card">
+
+<h3>Student Management System</h3>
+
+<p>
+
+Spring Boot + MySQL application with CRUD operations, pagination,
+exception handling and REST APIs.
+
+</p>
+
+<a href="https://github.com/Priyanshu1290/student-management-system/student-api">
+
+View GitHub Project
+
 </a>
-</li>
-</ul>
+
 </div>
 
-<div class="section">
-<h2>Coding Profiles</h2>
-<ul>
-<li>
-<a href="https://github.com/YOUR_GITHUB_USERNAME">GitHub</a>
-</li>
+</section>
 
-<li>
-<a href="https://www.hackerrank.com/YOUR_HACKERRANK_USERNAME">
-HackerRank
-</a>
-</li>
+<section id="certificates">
 
-<li>
-<a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME">
-LinkedIn
-</a>
-</li>
-</ul>
-</div>
-
-<div class="section">
 <h2>Certificates</h2>
+
+<div class="card">
+
 <ul>
-<li>Ethical Hacking Training - Internshala</li>
+
+<li>
+Ethical Hacking Training – Internshala
+<br>
+<a href="certificates/Cyber Security Training - Certificate of Completion.pdf">View Certificate</a>
+</li>
+
+<li>
+Java Programming Certificate
+<br>
+<a href="certificates/java_basic certificate.pdf">View Certificate</a>
+</li>
+
+<li>
+SQL Database Certificate
+<br>
+<a href="certificates/CAN_25591766_3409129.pdf">View Certificate</a>
+</li>
+
+<li>
+HackerRank Java Certificate
+<br>
+<a href="certificates/Hackerrank(Software Engineer Intern) certificate.pdf">View Certificate</a>
+</li>
+
+<li>
+HackerRank Problem Solving Certificate
+<br>
+<a href="certificates/Hackerrank(Software Engineer) certificate.pdf">View Certificate</a>
+</li>
+
 </ul>
+
 </div>
 
-<div class="section">
-<h2>Resume</h2>
-<a href="#">Download Resume</a>
+</section>
+
+<section id="achievements">
+
+<h2>Achievements</h2>
+
+<div class="card">
+
+<ul>
+
+<li>5⭐ Java on HackerRank</li>
+
+<li>5⭐ Problem Solving on HackerRank</li>
+
+<li>200+ Coding Problems Solved</li>
+
+<li>Strong knowledge of Java backend development</li>
+
+</ul>
+
 </div>
+
+</section>
+
+<section id="profiles">
+
+<h2>Coding Profiles</h2>
+
+<div class="card">
+
+<ul>
+
+<li>
+<a href="https://github.com/YOUR_GITHUB">
+GitHub Profile
+</a>
+</li>
+
+<li>
+<a href="https://www.hackerrank.com/YOUR_HACKERRANK">
+HackerRank Profile
+</a>
+</li>
+
+<li>
+<a href="https://linkedin.com/in/YOUR_LINKEDIN">
+LinkedIn Profile
+</a>
+</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Priyanshu Shrivastava</p>
+
+</footer>
 
 </div>
 
 </body>
+
 </html>
